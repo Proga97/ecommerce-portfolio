@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranay Chimmani — Senior Software Engineer</title>
+<meta name="description" content="Pranay Chimmani — Senior Software Engineer specializing in e-commerce platforms, backend architecture, and commerce integrations.">
+<meta name="author" content="Pranay Chimmani">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Oswald:wght@500;600&amp;family=Playfair+Display:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 5rem; }
+body { font-family: 'Inter', sans-serif; }
+.font-display { font-family: 'Oswald', sans-serif; }
+.font-accent { font-family: 'Playfair Display', serif; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #ebedea; }
+::-webkit-scrollbar-thumb { background: #3F556B; }
+@keyframes animationIn { 0% { opacity: 0; transform: translateY(30px); } 100% { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</head>
+  <body id="top" class="bg-[#ebedea] text-[#2d322f] antialiased selection:bg-[#3F556B] selection:text-white overflow-x-hidden">
+    <div class="fixed inset-0 pointer-events-none z-[100] opacity-[0.035] mix-blend-multiply" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E');"></div>
+
+    <!-- Navigation -->
+    <header class="border-b border-[#2d322f]/10 bg-[#ebedea]/90 backdrop-blur-md sticky top-0 z-50">
+      <div class="max-w-[1400px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between gap-6">
+        <div class="flex-1 flex justify-start items-center">
+          <a href="#top" class="font-display text-2xl font-semibold tracking-tighter uppercase flex items-center gap-3 text-[#2d322f] whitespace-nowrap">
+            <span class="bg-[#2d322f] text-white px-2 leading-8">PC</span>
+            <span class="hidden sm:inline">Pranay Chimmani</span>
+          </a>
+        </div>
+        <nav class="hidden xl:flex justify-center gap-6 2xl:gap-9 flex-1" aria-label="Sections">
+          <a href="#about" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Summary
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+          <a href="#experience" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Experience
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+          <a href="#projects" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Projects
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+          <a href="#skills" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Skills
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+          <a href="#education" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Education
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+          <a href="#contact" class="relative group text-xs font-semibold text-[#2d322f]/70 hover:text-[#3F556B] transition-colors duration-300 uppercase tracking-[0.15em] py-2 whitespace-nowrap">
+            Contact
+            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-[#3F556B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+          </a>
+        </nav>
+        <div class="flex-1 flex justify-end items-center gap-5">
+          <a href="https://www.linkedin.com/in/pranay-chimmani" target="_blank" rel="noopener" aria-label="LinkedIn" class="hidden sm:block text-[#2d322f] hover:text-[#3F556B] transition-colors duration-300"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4v11H3zM9.5 9.5h3.83v1.5h.05a4.2 4.2 0 0 1 3.78-2.08c4.04 0 4.79 2.66 4.79 6.11v5.47h-4v-4.85c0-1.16-.02-2.65-1.61-2.65-1.62 0-1.87 1.26-1.87 2.57v4.93h-4z"/></svg></a>
+          <button type="button" id="cart-btn" aria-haspopup="dialog" aria-controls="cart-drawer" class="shrink-0 border border-[#2d322f] text-[#2d322f] px-3 sm:px-4 py-3 text-xs font-semibold uppercase tracking-widest hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors duration-300 flex items-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]">
+            <iconify-icon icon="solar:cart-large-minimalistic-linear" width="16" height="16" aria-hidden="true"></iconify-icon><span class="hidden sm:inline">Cart</span> <span class="opacity-60 tabular-nums whitespace-nowrap">[<span class="js-cart-count inline-block w-[2.5ch] text-center tracking-normal">0</span>]</span>
+          </button>
+          <a href="Pranay-Chimmani-Resume.pdf" target="_blank" rel="noopener" class="bg-[#2d322f] text-white px-5 py-3 text-xs font-semibold uppercase tracking-widest hover:bg-[#3F556B] transition-colors duration-300 flex items-center gap-2">
+            Resume <span class="text-white/50">[PDF]</span>
+          </a>
+          <button id="menu-btn" class="xl:hidden text-[#2d322f]" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+            <iconify-icon icon="solar:hamburger-menu-linear" width="26" height="26"></iconify-icon>
+          </button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="hidden xl:hidden border-t border-[#2d322f]/10 bg-[#ebedea] px-6 pb-4" aria-label="Sections"><a href="#about" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Summary</a><a href="#experience" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Experience</a><a href="#projects" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Projects</a><a href="#skills" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Skills</a><a href="#education" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Education</a><a href="#contact" class="block py-3 border-b border-[#2d322f]/10 text-xs font-semibold uppercase tracking-[0.15em] text-[#2d322f]/80">Contact</a></nav>
+    </header>
+    <div id="cart-drawer" class="fixed inset-0 z-[90] hidden" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="js-cart-backdrop absolute inset-0 bg-[#1e2420]/50"></div>
+      <aside class="absolute right-0 top-0 h-full w-full max-w-md bg-[#1e2420] text-white flex flex-col shadow-2xl">
+        <div class="flex items-center justify-between px-6 py-5 border-b border-white/10">
+          <h2 id="cart-title" class="font-display text-2xl font-semibold uppercase tracking-tighter">Your Cart <span class="text-white/40">[<span class="js-cart-count">0</span>]</span></h2>
+          <button type="button" class="js-cart-close text-white/70 hover:text-white p-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white" aria-label="Close cart"><iconify-icon icon="solar:close-square-linear" width="26" height="26" aria-hidden="true"></iconify-icon></button>
+        </div>
+        <p class="js-cart-empty px-6 py-10 text-sm text-white/60">Your cart is empty. Browse the Skills Catalog and add what your team needs.</p>
+        <ul class="js-cart-list flex-1 overflow-y-auto px-6 divide-y divide-white/10"></ul>
+        <div class="border-t border-white/10 px-6 py-5 space-y-4">
+          <div class="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.2em]">
+            <span class="text-white/60">Total: <span class="text-white"><span class="js-cart-count">0</span> items</span></span>
+            <button type="button" class="js-cart-clear text-white/60 hover:text-white underline underline-offset-4">Clear</button>
+          </div>
+          <a href="mailto:pchimmani97@gmail.com" class="js-cart-checkout block w-full text-center bg-white text-[#1e2420] py-3.5 text-xs font-semibold uppercase tracking-widest hover:bg-[#3F556B] hover:text-white transition-colors">Checkout</a>
+        </div>
+      </aside>
+    </div>
+
+    <main>
+      <!-- HERO -->
+      <section class="relative w-full py-16 lg:py-24 overflow-hidden">
+        <div class="absolute inset-0 z-0 pointer-events-none">
+          <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4024eb96-6b8f-4f13-99f1-f1889425c4e5_3840w.jpg?w=800&amp;q=80" class="w-full h-full object-cover grayscale opacity-100 scale-[1.06]" alt="">
+          <div class="absolute inset-0 bg-[#ebedea]/55"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-[#ebedea]/70 via-transparent to-[#ebedea]/50"></div>
+        </div>
+        <div class="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12">
+          <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+            <div class="w-full lg:w-[45%] flex flex-col items-end order-2 lg:order-1 text-right relative py-8 lg:py-16">
+              <h1 class="relative flex flex-col items-end w-full">
+                <span class="font-display uppercase font-semibold tracking-tighter leading-[0.85] text-[#2d322f] text-[4.5rem] sm:text-[6.5rem] lg:text-[8.25rem] [animation:animationIn_1.2s_ease-out_0.2s_both]">Pranay</span>
+                <span class="font-display uppercase font-semibold tracking-tighter leading-[0.85] text-[#2d322f] text-[4.75rem] sm:text-[7rem] lg:text-[8.75rem] [animation:animationIn_1.2s_ease-out_0.4s_both]">Chimmani</span>
+                <span class="pointer-events-none mt-4 sm:mt-0 sm:absolute sm:-right-2 sm:top-1/2 sm:-translate-y-[55%] border border-[#2d322f]/45 bg-[#3F556B] px-2 py-1 text-[10px] md:text-xs font-semibold uppercase text-white tracking-[0.35em] [animation:animationIn_0.8s_ease-out_0.8s_both]">Senior Software Engineer</span>
+              </h1>
+              <p class="font-accent italic text-lg md:text-xl text-[#3F556B] mt-10 mb-4 pr-2 max-w-[38ch] [animation:animationIn_0.8s_ease-out_1s_both]">
+                E-commerce platforms, backend architecture, and commerce integrations.
+              </p>
+              <div class="flex flex-wrap justify-end gap-3 mt-10 mr-2 [animation:animationIn_0.8s_ease-out_1.2s_both]">
+                <a href="mailto:pchimmani97@gmail.com" class="bg-[#2d322f] text-white px-8 py-4 text-xs font-semibold uppercase tracking-widest hover:bg-[#3F556B] transition-colors duration-300">Get in touch</a>
+                <a href="#experience" class="border border-[#2d322f] px-8 py-4 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all duration-300">See the work</a>
+              </div>
+            </div>
+            <div class="w-full lg:w-[115%] lg:translate-x-[3%] h-[380px] sm:h-[500px] lg:h-[750px] flex items-center gap-1 lg:gap-1.5 overflow-visible relative group order-1 lg:order-2" aria-hidden="true">
+              <div class="w-[18%] h-[80%] -translate-y-4 relative overflow-hidden bg-[#1e2420] shadow-lg z-10 rounded-[1px]">
+                <div class="absolute inset-x-0 -top-[30%] h-[160%] scale-[1.15] bg-no-repeat js-hero-blind will-change-transform" style="background-image:url('images/hero-igec.jpg'); background-size: auto 110.9%; background-position: 54.5% 75.2%;"></div>
+              </div>
+              <div class="w-[22%] h-[95%] translate-y-1 relative overflow-hidden bg-[#1e2420] shadow-xl z-20 rounded-[1px]">
+                <div class="absolute inset-x-0 -top-[30%] h-[160%] scale-[1.15] bg-no-repeat js-hero-blind will-change-transform" style="background-image:url('images/hero-igec.jpg'); background-size: auto 93.4%; background-position: 64.9% -12.0%;"></div>
+              </div>
+              <div class="w-[28%] h-[110%] -translate-y-2 relative overflow-hidden bg-[#1e2420] shadow-2xl z-30 rounded-[1px]">
+                <div class="absolute inset-x-0 -top-[30%] h-[160%] scale-[1.15] bg-no-repeat js-hero-blind will-change-transform" style="background-image:url('images/hero-igec.jpg'); background-size: auto 80.7%; background-position: 78.6% 36.3%;"></div>
+              </div>
+              <div class="w-[22%] h-[95%] translate-y-1 relative overflow-hidden bg-[#1e2420] shadow-xl z-20 rounded-[1px]">
+                <div class="absolute inset-x-0 -top-[30%] h-[160%] scale-[1.15] bg-no-repeat js-hero-blind will-change-transform" style="background-image:url('images/hero-igec.jpg'); background-size: auto 93.4%; background-position: 90.5% -12.0%;"></div>
+              </div>
+              <div class="w-[18%] h-[80%] -translate-y-4 relative overflow-hidden bg-[#1e2420] shadow-lg z-10 rounded-[1px]">
+                <div class="absolute inset-x-0 -top-[30%] h-[160%] scale-[1.15] bg-no-repeat js-hero-blind will-change-transform" style="background-image:url('images/hero-igec.jpg'); background-size: auto 110.9%; background-position: 99.8% 75.2%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUMMARY -->
+      <section id="about" class="relative w-full bg-[#1e2420] overflow-hidden">
+        <div class="absolute inset-0 pointer-events-none opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(255,255,255,0.10) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.10) 1px, transparent 1px); background-size: 64px 64px;"></div>
+        <div class="absolute inset-x-0 top-0 h-px bg-white/10"></div>
+        <div class="absolute inset-x-0 bottom-0 h-px bg-white/10"></div>
+        <div class="relative max-w-[1100px] mx-auto px-6 py-24 lg:py-32 text-center">
+          <div class="animate-on-scroll [animation:animationIn_0.8s_ease-out_0.1s_both]"><div class="flex items-center justify-center gap-3 mb-8">
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+            <span class="text-[11px] font-semibold uppercase tracking-[0.28em] text-white/55">Professional Summary</span>
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+          </div></div>
+          <h2 class="font-display text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tighter uppercase text-white leading-[0.9] animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+            Built for <span class="text-[#3F556B]">commerce</span><br>at scale
+          </h2>
+          <div class="mt-10 max-w-[62ch] mx-auto space-y-5 animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both]"><p class="font-sans text-base md:text-lg text-white/60 leading-relaxed">Senior Software Engineer specializing in <strong class="font-semibold text-white">e-commerce platforms, backend architecture, and commerce integrations</strong>, with experience building and operating a multi-tenant platform serving <strong class="font-semibold text-white">1,000+ businesses</strong>.</p><p class="font-sans text-base md:text-lg text-white/60 leading-relaxed">Skilled in PHP, Python, SQL, and REST APIs, with hands-on delivery across order-to-cash workflows, payments, inventory, customer-specific pricing, and ERP integrations.</p><p class="font-sans text-base md:text-lg text-white/60 leading-relaxed">Combines end-to-end engineering ownership with a business focus on profitable sourcing, faster fulfillment, and reliable transaction processing. Experienced in optimizing relational databases, deploying cloud services, and applying AI-assisted development to deliver maintainable, production-ready software.</p></div>
+          <div class="mt-10 flex justify-center"><span class="h-px w-20 bg-[#3F556B]/60"></span></div>
+        </div>
+      </section>
+
+      <!-- WORK HISTORY TILES -->
+      <section class="w-full" aria-label="Work history at a glance">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 h-auto lg:h-[70vh]">
+          <a href="#job-1" class="relative group overflow-hidden h-96 lg:h-full cursor-pointer bg-[#2d322f] block animate-on-scroll [animation:animationIn_0.8s_ease-out_0.1s_both]">
+            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/b2bd4dcc-aeba-42b1-a228-8e7aea6025f4_3840w.webp?w=800&amp;q=80" alt="" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 p-8 z-20 pointer-events-none transition-all duration-500 ease-out [@media(hover:hover)]:group-hover:opacity-0 [@media(hover:hover)]:group-hover:translate-y-3 group-focus:opacity-0 group-focus:translate-y-3">
+              <span class="font-display text-xs text-white/70 uppercase tracking-[0.2em] mb-2 block drop-shadow-md">2025–26</span>
+              <h3 class="font-display text-4xl lg:text-5xl font-semibold text-white uppercase tracking-tighter drop-shadow-lg">Veilion</h3>
+            </div>
+            <div class="absolute inset-y-0 right-0 w-full lg:w-[70%] bg-[#414f3f]/80 backdrop-blur-md translate-x-full group-hover:translate-x-0 group-focus:translate-x-0 transition-transform duration-500 ease-out z-10 flex flex-col justify-end p-8 border-l border-white/10">
+              <h4 class="font-display text-5xl lg:text-[1.75rem] xl:text-[1.9rem] 2xl:text-[2.5rem] font-semibold text-white uppercase tracking-tighter leading-none mb-5 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-300">Veilion</h4>
+              <div class="w-0 group-hover:w-full group-focus:w-full h-px bg-white/40 mb-6 transition-all duration-700 delay-300 ease-out"></div>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/50 mb-2 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">2025–26</p>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/70 mb-3 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">Lead Amazon FBA / FBM Developer</p>
+              <p class="text-white text-sm opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400 leading-relaxed font-medium">SourceLoop: sourcing and arbitrage automation behind 780% growth in Amazon store sales.</p>
+            </div>
+          </a>
+          <a href="#job-2" class="relative group overflow-hidden h-96 lg:h-full cursor-pointer bg-[#2d322f] block animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+            <img src="https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?w=1600&amp;q=80" alt="" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 p-8 z-20 pointer-events-none transition-all duration-500 ease-out [@media(hover:hover)]:group-hover:opacity-0 [@media(hover:hover)]:group-hover:translate-y-3 group-focus:opacity-0 group-focus:translate-y-3">
+              <span class="font-display text-xs text-white/70 uppercase tracking-[0.2em] mb-2 block drop-shadow-md">2025</span>
+              <h3 class="font-display text-4xl lg:text-5xl font-semibold text-white uppercase tracking-tighter drop-shadow-lg">Hexion</h3>
+            </div>
+            <div class="absolute inset-y-0 right-0 w-full lg:w-[70%] bg-[#414f3f]/80 backdrop-blur-md translate-x-full group-hover:translate-x-0 group-focus:translate-x-0 transition-transform duration-500 ease-out z-10 flex flex-col justify-end p-8 border-l border-white/10">
+              <h4 class="font-display text-5xl lg:text-[1.75rem] xl:text-[1.9rem] 2xl:text-[2.5rem] font-semibold text-white uppercase tracking-tighter leading-none mb-5 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-300">Hexion</h4>
+              <div class="w-0 group-hover:w-full group-focus:w-full h-px bg-white/40 mb-6 transition-all duration-700 delay-300 ease-out"></div>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/50 mb-2 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">2025</p>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/70 mb-3 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">AI Engineer Intern</p>
+              <p class="text-white text-sm opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400 leading-relaxed font-medium">Production GenAI backend services, Palantir Foundry pipelines and a 90%+ faster flagship report.</p>
+            </div>
+          </a>
+          <a href="#job-3" class="relative group overflow-hidden h-96 lg:h-full cursor-pointer bg-[#2d322f] block animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both]">
+            <img src="https://images.unsplash.com/photo-1507534192483-69914c0692d7?w=1600&amp;q=80" alt="" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 p-8 z-20 pointer-events-none transition-all duration-500 ease-out [@media(hover:hover)]:group-hover:opacity-0 [@media(hover:hover)]:group-hover:translate-y-3 group-focus:opacity-0 group-focus:translate-y-3">
+              <span class="font-display text-xs text-white/70 uppercase tracking-[0.2em] mb-2 block drop-shadow-md">2023–24</span>
+              <h3 class="font-display text-4xl lg:text-5xl font-semibold text-white uppercase tracking-tighter drop-shadow-lg">Order Matic</h3>
+            </div>
+            <div class="absolute inset-y-0 right-0 w-full lg:w-[70%] bg-[#414f3f]/80 backdrop-blur-md translate-x-full group-hover:translate-x-0 group-focus:translate-x-0 transition-transform duration-500 ease-out z-10 flex flex-col justify-end p-8 border-l border-white/10">
+              <h4 class="font-display text-5xl lg:text-[1.75rem] xl:text-[1.9rem] 2xl:text-[2.5rem] font-semibold text-white uppercase tracking-tighter leading-none mb-5 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-300">Order Matic</h4>
+              <div class="w-0 group-hover:w-full group-focus:w-full h-px bg-white/40 mb-6 transition-all duration-700 delay-300 ease-out"></div>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/50 mb-2 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">2023–24</p>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/70 mb-3 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">Founding Software Engineer</p>
+              <p class="text-white text-sm opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400 leading-relaxed font-medium">Multi-tenant food ordering and delivery SaaS serving 1,000+ businesses, owned end to end.</p>
+            </div>
+          </a>
+          <a href="#job-4" class="relative group overflow-hidden h-96 lg:h-full cursor-pointer bg-[#2d322f] block animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both]">
+            <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/55bcfcb3-26eb-42a7-bc3a-e52dab7df5c1_3840w.jpg?w=800&amp;q=80" alt="" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 to-transparent pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 p-8 z-20 pointer-events-none transition-all duration-500 ease-out [@media(hover:hover)]:group-hover:opacity-0 [@media(hover:hover)]:group-hover:translate-y-3 group-focus:opacity-0 group-focus:translate-y-3">
+              <span class="font-display text-xs text-white/70 uppercase tracking-[0.2em] mb-2 block drop-shadow-md">2017–23</span>
+              <h3 class="font-display text-4xl lg:text-5xl font-semibold text-white uppercase tracking-tighter drop-shadow-lg">Gymclan</h3>
+            </div>
+            <div class="absolute inset-y-0 right-0 w-full lg:w-[70%] bg-[#414f3f]/80 backdrop-blur-md translate-x-full group-hover:translate-x-0 group-focus:translate-x-0 transition-transform duration-500 ease-out z-10 flex flex-col justify-end p-8 border-l border-white/10">
+              <h4 class="font-display text-5xl lg:text-[1.75rem] xl:text-[1.9rem] 2xl:text-[2.5rem] font-semibold text-white uppercase tracking-tighter leading-none mb-5 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-300">Gymclan</h4>
+              <div class="w-0 group-hover:w-full group-focus:w-full h-px bg-white/40 mb-6 transition-all duration-700 delay-300 ease-out"></div>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/50 mb-2 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">2017–23</p>
+              <p class="text-[10px] uppercase font-semibold tracking-[0.2em] text-white/70 mb-3 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400">Senior Software Engineer</p>
+              <p class="text-white text-sm opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-500 delay-400 leading-relaxed font-medium">Fitness platform serving 500,000+ users, rated 4.5/5 on Google Play across 1,800+ reviews.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- METRICS -->
+      <section class="bg-[#1e2420] border-y border-white/5 relative z-20" aria-label="Highlights">
+        <div class="max-w-[1400px] mx-auto">
+          <div class="grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-white/5 text-center">
+            <div class="py-20 lg:py-24 px-6 flex flex-col items-center justify-center animate-on-scroll [animation:animationIn_0.8s_ease-out_0.1s_both]">
+              <span class="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-tighter mb-4 drop-shadow-lg">1,000<span class="text-3xl text-[#3F556B] ml-1">+</span></span>
+              <span class="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold">Businesses served</span>
+            </div>
+            <div class="py-20 lg:py-24 px-6 flex flex-col items-center justify-center animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+              <span class="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-tighter mb-4 drop-shadow-lg">500K<span class="text-3xl text-[#3F556B] ml-1">+</span></span>
+              <span class="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold">Users served</span>
+            </div>
+            <div class="py-20 lg:py-24 px-6 flex flex-col items-center justify-center animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both]">
+              <span class="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-tighter mb-4 drop-shadow-lg">780<span class="text-3xl text-[#3F556B] ml-1">%</span></span>
+              <span class="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold">Amazon sales growth</span>
+            </div>
+            <div class="py-20 lg:py-24 px-6 flex flex-col items-center justify-center animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both]">
+              <span class="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-white tracking-tighter mb-4 drop-shadow-lg">2017</span>
+              <span class="text-xs uppercase tracking-[0.2em] text-white/50 font-semibold">Shipping software since</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE: Inventory -->
+      <section id="experience" class="max-w-[1400px] mx-auto px-6 lg:px-12 py-32 bg-[#ebedea]">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6">
+          <div class="max-w-2xl">
+            <h2 class="font-display text-5xl md:text-6xl font-semibold tracking-tighter uppercase text-[#2d322f] mb-4">
+              Work
+              <span class="text-[#3F556B]">Inventory</span>
+            </h2>
+            <p class="text-base text-[#2d322f]/70">
+              September 2017 to August 2026, across e-commerce, enterprise AI, SaaS and consumer fitness.
+            </p>
+          </div>
+          <a href="Pranay-Chimmani-Resume.pdf" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 border border-[#2d322f]/20 bg-[#ebedea] text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors shrink-0 self-start md:self-auto">
+            Full Resume
+            <iconify-icon icon="solar:arrow-right-linear" width="18" height="18"></iconify-icon>
+          </a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 items-start">
+          <article id="job-1" class="scroll-mt-24 flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_8px_32px_rgba(63,85,107,0.08)] animate-on-scroll [animation:animationIn_0.8s_ease-out_0.1s_both]">
+            <div class="group relative aspect-[4/5] bg-white overflow-hidden flex items-center justify-center p-8">
+              <span class="absolute top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1 z-10 shadow-sm">Veilion</span>
+              <span class="absolute top-3 right-4 font-display text-xl font-semibold text-[#2d322f]/20 z-10">01</span>
+              <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 28px 28px;"></div>
+              <img src="logos/veilion.png" alt="Veilion logo" class="relative max-h-28 max-w-[70%] object-contain transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="p-6 flex flex-col flex-grow bg-[#ebedea]">
+              <div class="js-job-head">
+              <div class="mb-2">
+                <span class="block font-display text-sm font-semibold text-[#2d322f]/60 tracking-[0.15em] mb-2">2025–26</span>
+                <h3 class="font-display text-2xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-tight">
+                  <span class="border-b-2 border-[#3F556B] pb-1 inline-block">Lead Amazon FBA / FBM Developer</span>
+                </h3>
+              </div>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mt-3 mb-1">Veilion <span class="text-[#2d322f]/50">· Remote</span></p>
+              <p class="text-[10px] uppercase font-semibold text-[#2d322f]/50 tracking-[0.2em] mb-6">December 2025 — August 2026</p>
+              </div>
+              <div class="grid grid-cols-3 gap-2 border-y border-[#2d322f]/10 py-3 mt-auto mb-6">
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:graph-up-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">780% Growth</span>
+                </div>
+                <div class="flex flex-col items-center justify-center border-x border-[#2d322f]/10">
+                  <iconify-icon icon="solar:dollar-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">$100K Sales</span>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:box-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">+30 Pkgs/Day</span>
+                </div>
+              </div>
+              <details class="group/d">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer w-full bg-transparent border border-[#2d322f] py-3 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all flex items-center justify-center gap-2">
+                  <span class="group-open/d:hidden">View details</span><span class="hidden group-open/d:inline">Hide details</span>
+                  <iconify-icon icon="solar:add-circle-linear" width="16" height="16" class="group-open/d:rotate-45 transition-transform"></iconify-icon>
+                </summary>
+                <div class="pt-6"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Designed and built <strong class="font-semibold text-[#2d322f]">SourceLoop</strong>, an e-commerce sourcing and arbitrage platform, automating product evaluation and purchasing recommendations to support <strong class="font-semibold text-[#2d322f]">780% growth</strong> in Amazon store sales.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Developed an automated sourcing engine that generates prioritized shopping lists of products projected to achieve at least a <strong class="font-semibold text-[#2d322f]">30% margin</strong>, accounting for purchase price, Amazon fees, and estimated shipping and fulfillment costs.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Built product profitability and purchasing workflows that turn sourcing opportunities into actionable buy lists with quantities, estimated profit, and margin calculations, accelerating inventory acquisition for Amazon FBM resale.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Supported <strong class="font-semibold text-[#2d322f]">$100,000</strong> in e-commerce sales at a 30% margin through sourcing automation, pricing analysis, and inventory visibility, helping focus purchasing decisions on profitable resale opportunities.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Streamlined sourcing-to-shipment operations, connecting purchasing decisions with inventory and order fulfillment workflows to increase daily shipment volume by <strong class="font-semibold text-[#2d322f]">30 packages per day</strong>.</li></ul></div>
+              </details>
+            </div>
+          </article>
+          <article id="job-2" class="scroll-mt-24 flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_8px_32px_rgba(63,85,107,0.08)] animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+            <div class="group relative aspect-[4/5] bg-white overflow-hidden flex items-center justify-center p-8">
+              <span class="absolute top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1 z-10 shadow-sm">Hexion</span>
+              <span class="absolute top-3 right-4 font-display text-xl font-semibold text-[#2d322f]/20 z-10">02</span>
+              <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 28px 28px;"></div>
+              <img src="logos/hexion.png" alt="Hexion Inc. logo" class="relative max-h-28 max-w-[70%] object-contain transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="p-6 flex flex-col flex-grow bg-[#ebedea]">
+              <div class="js-job-head">
+              <div class="mb-2">
+                <span class="block font-display text-sm font-semibold text-[#2d322f]/60 tracking-[0.15em] mb-2">2025</span>
+                <h3 class="font-display text-2xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-tight">
+                  <span class="border-b-2 border-[#3F556B] pb-1 inline-block">AI Engineer Intern</span>
+                </h3>
+              </div>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mt-3 mb-1">Hexion Inc. <span class="text-[#2d322f]/50">· Columbus, OH</span></p>
+              <p class="text-[10px] uppercase font-semibold text-[#2d322f]/50 tracking-[0.2em] mb-6">May 2025 — August 2025</p>
+              </div>
+              <div class="grid grid-cols-3 gap-2 border-y border-[#2d322f]/10 py-3 mt-auto mb-6">
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:cpu-bolt-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">GenAI / RAG</span>
+                </div>
+                <div class="flex flex-col items-center justify-center border-x border-[#2d322f]/10">
+                  <iconify-icon icon="solar:magnifer-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">-85% Research</span>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:bolt-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">90%+ Faster</span>
+                </div>
+              </div>
+              <details class="group/d">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer w-full bg-transparent border border-[#2d322f] py-3 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all flex items-center justify-center gap-2">
+                  <span class="group-open/d:hidden">View details</span><span class="hidden group-open/d:inline">Hide details</span>
+                  <iconify-icon icon="solar:add-circle-linear" width="16" height="16" class="group-open/d:rotate-45 transition-transform"></iconify-icon>
+                </summary>
+                <div class="pt-6"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Built and deployed <strong class="font-semibold text-[#2d322f]">production GenAI backend services</strong> using OpenAI APIs, combining structured outputs and retrieval-augmented generation (RAG) to integrate contextual insights into internal reporting and support executive decision-making.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Engineered integrated data pipelines in <strong class="font-semibold text-[#2d322f]">Palantir Foundry</strong> to unify market intelligence, supplier information, and pricing data, reducing research time by approximately <strong class="font-semibold text-[#2d322f]">85%</strong> and accelerating access to decision-ready insights.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Contributed to the team leading the enterprise migration to Palantir Foundry, consolidating data assets and delivering new data products across supply chain, procurement, finance, and transportation.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Modernized the company’s most-viewed report and its underlying data pipelines, migrating processing to Microsoft Azure and improving performance by <strong class="font-semibold text-[#2d322f]">over 90%</strong> to accelerate access to critical business information.</li></ul></div>
+              </details>
+            </div>
+          </article>
+          <article id="job-3" class="scroll-mt-24 flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_8px_32px_rgba(63,85,107,0.08)] animate-on-scroll [animation:animationIn_0.8s_ease-out_0.3s_both]">
+            <div class="group relative aspect-[4/5] bg-white overflow-hidden flex items-center justify-center p-8">
+              <span class="absolute top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1 z-10 shadow-sm">Order Matic</span>
+              <span class="absolute top-3 right-4 font-display text-xl font-semibold text-[#2d322f]/20 z-10">03</span>
+              <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 28px 28px;"></div>
+              <img src="logos/ordermatic.svg" alt="Order Matic Technologies logo" class="relative max-h-28 max-w-[70%] object-contain transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="p-6 flex flex-col flex-grow bg-[#ebedea]">
+              <div class="js-job-head">
+              <div class="mb-2">
+                <span class="block font-display text-sm font-semibold text-[#2d322f]/60 tracking-[0.15em] mb-2">2023–24</span>
+                <h3 class="font-display text-2xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-tight">
+                  <span class="border-b-2 border-[#3F556B] pb-1 inline-block">Founding Software Engineer</span>
+                </h3>
+              </div>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mt-3 mb-1">Order Matic Technologies Private Limited <span class="text-[#2d322f]/50">· Hyderabad, India</span></p>
+              <p class="text-[10px] uppercase font-semibold text-[#2d322f]/50 tracking-[0.2em] mb-6">January 2023 — August 2024</p>
+              </div>
+              <div class="grid grid-cols-3 gap-2 border-y border-[#2d322f]/10 py-3 mt-auto mb-6">
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:buildings-2-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">1,000+ Biz</span>
+                </div>
+                <div class="flex flex-col items-center justify-center border-x border-[#2d322f]/10">
+                  <iconify-icon icon="solar:shield-check-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">-90% Dupes</span>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:delivery-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">94% On-Time</span>
+                </div>
+              </div>
+              <details class="group/d">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer w-full bg-transparent border border-[#2d322f] py-3 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all flex items-center justify-center gap-2">
+                  <span class="group-open/d:hidden">View details</span><span class="hidden group-open/d:inline">Hide details</span>
+                  <iconify-icon icon="solar:add-circle-linear" width="16" height="16" class="group-open/d:rotate-45 transition-transform"></iconify-icon>
+                </summary>
+                <div class="pt-6"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Engineered a <strong class="font-semibold text-[#2d322f]">multi-tenant food ordering and delivery SaaS</strong> serving <strong class="font-semibold text-[#2d322f]">1,000+ businesses</strong>, owning architecture, development, deployment, and production operations across ordering, POS, payments, inventory, invoicing, and reporting.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Accelerated order-to-delivery workflows by modeling order placement, confirmation, fulfillment, invoicing, and payment as audited state transitions, reducing order-confirmation time by <strong class="font-semibold text-[#2d322f]">35%</strong> and average order-to-fulfillment time by <strong class="font-semibold text-[#2d322f]">8 minutes</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Streamlined coordination with delivery partners through REST API adapters, webhook processing, and automated retries, reducing order-to-partner handoff time by <strong class="font-semibold text-[#2d322f]">40%</strong> and helping improve on-time delivery from <strong class="font-semibold text-[#2d322f]">85% to 94%</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Built a reliable API foundation for storefront, POS, and administrative applications, implementing versioned contracts, role-based access, pagination, and idempotent order and payment endpoints to reduce duplicate transactions by <strong class="font-semibold text-[#2d322f]">90%</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Designed and optimized relational data architecture for tenant hierarchies, menu variants, customer-specific pricing, inventory ledgers, and order history, reducing critical query execution time by <strong class="font-semibold text-[#2d322f]">55%</strong> through index tuning and schema improvements.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Automated payment, ERP, and inventory reconciliation to keep financial and operational records aligned, reducing manual reconciliation by <strong class="font-semibold text-[#2d322f]">10 hours per week</strong> and inventory-related order exceptions by <strong class="font-semibold text-[#2d322f]">30%</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Established automated testing, Docker-based environments, CI/CD, and production monitoring, reducing deployment time by <strong class="font-semibold text-[#2d322f]">65%</strong> and mean time to resolve production incidents by <strong class="font-semibold text-[#2d322f]">40%</strong>.</li></ul></div>
+              </details>
+            </div>
+          </article>
+          <article id="job-4" class="scroll-mt-24 flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_8px_32px_rgba(63,85,107,0.08)] animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both]">
+            <div class="group relative aspect-[4/5] bg-white overflow-hidden flex items-center justify-center p-8">
+              <span class="absolute top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1 z-10 shadow-sm">Gymclan</span>
+              <span class="absolute top-3 right-4 font-display text-xl font-semibold text-[#2d322f]/20 z-10">04</span>
+              <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 28px 28px;"></div>
+              <img src="logos/gymclan.png" alt="Gymclan Health and Fitness logo" class="relative max-h-28 max-w-[70%] object-contain transition-transform duration-500 group-hover:scale-105">
+            </div>
+            <div class="p-6 flex flex-col flex-grow bg-[#ebedea]">
+              <div class="js-job-head">
+              <div class="mb-2">
+                <span class="block font-display text-sm font-semibold text-[#2d322f]/60 tracking-[0.15em] mb-2">2017–23</span>
+                <h3 class="font-display text-2xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-tight">
+                  <span class="border-b-2 border-[#3F556B] pb-1 inline-block">Senior Software Engineer</span>
+                </h3>
+              </div>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mt-3 mb-1">Gymclan Health and Fitness <span class="text-[#2d322f]/50">· Hyderabad, India</span></p>
+              <p class="text-[10px] uppercase font-semibold text-[#2d322f]/50 tracking-[0.2em] mb-6">September 2017 — January 2023</p>
+              </div>
+              <div class="grid grid-cols-3 gap-2 border-y border-[#2d322f]/10 py-3 mt-auto mb-6">
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:users-group-rounded-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">500K+ Users</span>
+                </div>
+                <div class="flex flex-col items-center justify-center border-x border-[#2d322f]/10">
+                  <iconify-icon icon="solar:star-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">4.5 Rating</span>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                  <iconify-icon icon="solar:chat-round-like-linear" width="16" height="16" class="text-[#3F556B] mb-1"></iconify-icon>
+                  <span class="font-display text-xs uppercase tracking-widest text-[#2d322f]/60 text-center">1,800+ Reviews</span>
+                </div>
+              </div>
+              <details class="group/d">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer w-full bg-transparent border border-[#2d322f] py-3 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all flex items-center justify-center gap-2">
+                  <span class="group-open/d:hidden">View details</span><span class="hidden group-open/d:inline">Hide details</span>
+                  <iconify-icon icon="solar:add-circle-linear" width="16" height="16" class="group-open/d:rotate-45 transition-transform"></iconify-icon>
+                </summary>
+                <div class="pt-6"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Led end-to-end engineering of a fitness platform serving <strong class="font-semibold text-[#2d322f]">500,000+ users</strong>, delivering integrated workout programs, nutrition tracking, health analytics, and personalized coaching experiences.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Architected backend services and REST APIs powering the mobile applications, supporting user accounts, personalized fitness plans, program management, coach–client bookings, and progress analytics.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Engineered subscription and in-app payment workflows, integrating provider webhooks, entitlement validation, and renewal processing to manage paid access across the subscription lifecycle.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Designed event-driven processing with Cloud Functions, moving notifications, scheduled tasks, and analytics aggregation into asynchronous workflows to support responsive mobile experiences.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Partnered directly with the CTO on architecture and technical delivery within a two-engineer core team, mentoring junior developers through code reviews and contributing to a platform rated <strong class="font-semibold text-[#2d322f]">4.5/5 on Google Play</strong> across <strong class="font-semibold text-[#2d322f]">1,800+ reviews</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Built real-time, AI-assisted exercise tracking using computer vision and pose detection, translating movement data into automated exercise analysis to enhance workout tracking and user feedback.</li></ul></div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- IMMERSIVE BREAK -->
+      <section class="relative h-[70vh] lg:h-[80vh] flex items-center justify-center overflow-hidden bg-[#1e2420]" aria-label="Scale">
+        <div class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-[#3F556B]/60 to-transparent z-10 pointer-events-none"></div>
+        <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4024eb96-6b8f-4f13-99f1-f1889425c4e5_3840w.jpg?w=800&amp;q=80" alt="" class="absolute inset-x-0 -top-[30%] w-full h-[160%] object-cover object-[center_55%] js-immersive-bg transition-transform duration-300 ease-out z-0 scale-[1.15] will-change-transform">
+        <div class="absolute inset-0 bg-[#1e2420]/30 z-0 mix-blend-multiply pointer-events-none"></div>
+        <h2 class="relative z-20 flex flex-col items-center text-center px-6 mt-12">
+          <span class="font-display text-6xl md:text-8xl lg:text-[9rem] font-semibold text-white uppercase tracking-tighter leading-[0.8] drop-shadow-2xl">Order to cash</span>
+          <span class="font-accent italic text-3xl md:text-5xl lg:text-6xl font-normal tracking-tight mt-6 drop-shadow-xl">
+            <span class="text-white/80">for</span> <span class="text-white">1,000+ businesses</span>
+          </span>
+        </h2>
+      </section>
+
+      <!-- PROJECTS: Tested-by section layout -->
+      <section id="projects" class="max-w-[1400px] mx-auto px-6 lg:px-12 py-32 border-b border-[#2d322f]/10">
+        <div class="mb-20 text-center">
+          <div class="flex items-center justify-center gap-3 mb-8">
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+            <span class="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2d322f]/60">Projects</span>
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+          </div>
+          <h2 class="font-display text-5xl md:text-6xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-[0.95]">
+            Built and run
+            <br>
+            in <span class="text-[#3F556B]">production</span>
+          </h2>
+          <p class="mt-8 font-sans text-lg md:text-xl text-[#2d322f]/60 max-w-[44ch] mx-auto leading-relaxed">
+            Commerce platforms, sourcing automation, and AI systems.
+          </p>
+          <div class="mt-10 flex justify-center"><span class="h-px w-20 bg-[#3F556B]/40"></span></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 lg:gap-12 gap-y-16 items-start">
+          <div class="group flex flex-col animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+            <div class="relative aspect-[3/4] md:aspect-[4/5] w-full overflow-hidden bg-[#1e2420] mb-6 flex items-center justify-center">
+              <span class="absolute z-10 bottom-4 left-5 font-display text-7xl font-semibold text-white/40 tracking-tighter leading-none">01</span>
+              <span class="absolute z-10 top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1">Order Matic</span>
+              <img src="images/project-1.jpg" alt="Tablet point-of-sale system on a café counter" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 via-[#1e2420]/20 to-transparent"></div>
+            </div>
+            <div class="">
+              <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] leading-[0.95] mb-2">Multi-Tenant Commerce &amp; Order Management Platform</h3>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">Order Matic</p>
+              <p class="font-accent italic text-[#2d322f]/70 text-lg mb-4">Engineered a commerce platform serving <strong class="font-semibold text-[#2d322f]">1,000+ businesses</strong>, connecting ordering, POS, payments, inventory, and invoicing through a unified backend.</p>
+              <details class="group/d mt-2">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors"><span class="group-open/d:hidden">More →</span><span class="hidden group-open/d:inline">Less ↑</span></summary>
+                <div class="pt-4"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Automated order-to-cash, cancellation, return, and refund workflows using audited state machines, with idempotent API endpoints to safeguard order and payment processing.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Integrated payment, ERP, and delivery systems through API adapters, webhooks, retries, and reconciliation jobs; modeled customer-specific pricing, account hierarchies, stock ledgers, and order history to support complex commerce operations.</li></ul></div>
+              </details>
+            </div>
+          </div>
+          <div class="group flex flex-col animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both]">
+            <div class="relative aspect-[3/4] md:aspect-[4/5] w-full overflow-hidden bg-[#1e2420] order-2 flex items-center justify-center">
+              <span class="absolute z-10 bottom-4 left-5 font-display text-7xl font-semibold text-white/40 tracking-tighter leading-none">02</span>
+              <span class="absolute z-10 top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1">SourceLoop</span>
+              <img src="images/project-2.jpg" alt="Warehouse aisle lined with shelves of boxes" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 via-[#1e2420]/20 to-transparent"></div>
+            </div>
+            <div class="mb-6 order-1">
+              <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] leading-[0.95] mb-2">E-Commerce Sourcing &amp; Profitability Automation</h3>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">SourceLoop</p>
+              <p class="font-accent italic text-[#2d322f]/70 text-lg mb-4">Built an automated Amazon sourcing platform that converts product opportunities into prioritized purchasing lists with recommended quantities, estimated profit, and projected margins.</p>
+              <details class="group/d mt-2">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors"><span class="group-open/d:hidden">More →</span><span class="hidden group-open/d:inline">Less ↑</span></summary>
+                <div class="pt-4"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Developed margin-based product evaluation incorporating acquisition costs, Amazon fees, and estimated fulfillment expenses to identify inventory targeting at least a <strong class="font-semibold text-[#2d322f]">30% margin</strong>.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Connected sourcing, purchasing, and fulfillment workflows, giving operators actionable visibility into what to buy, expected profitability, and inventory needs to accelerate arbitrage operations.</li></ul></div>
+              </details>
+            </div>
+          </div>
+          <div class="group flex flex-col animate-on-scroll [animation:animationIn_0.8s_ease-out_0.6s_both]">
+            <div class="relative aspect-[3/4] md:aspect-[4/5] w-full overflow-hidden bg-[#1e2420] mb-6 flex items-center justify-center">
+              <span class="absolute z-10 bottom-4 left-5 font-display text-7xl font-semibold text-white/40 tracking-tighter leading-none">03</span>
+              <span class="absolute z-10 top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1">Document AI</span>
+              <img src="images/project-3.jpg" alt="Stack of paper documents marked with colorful sticky tabs" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 via-[#1e2420]/20 to-transparent"></div>
+            </div>
+            <div class="">
+              <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] leading-[0.95] mb-2">Intelligent Document Extraction Pipeline</h3>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">Python / FastAPI / PostgreSQL / MCP / Docker</p>
+              <p class="font-accent italic text-[#2d322f]/70 text-lg mb-4">Automated the conversion of scanned documents into validated, structured records, applying schema and field-level checks to support reliable downstream processing.</p>
+              <details class="group/d mt-2">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors"><span class="group-open/d:hidden">More →</span><span class="hidden group-open/d:inline">Less ↑</span></summary>
+                <div class="pt-4"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Implemented human review for low-confidence records and exposed extraction as a reusable MCP tool, enabling AI agents to initiate processing through background job queues.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Evaluated field-level accuracy against labeled data, providing a measurable foundation for assessing extraction quality before broader operational use.</li></ul></div>
+              </details>
+            </div>
+          </div>
+          <div class="group flex flex-col js-more-proj hidden">
+            <div class="relative aspect-[3/4] md:aspect-[4/5] w-full overflow-hidden bg-[#1e2420] order-2 flex items-center justify-center">
+              <span class="absolute z-10 bottom-4 left-5 font-display text-7xl font-semibold text-white/40 tracking-tighter leading-none">04</span>
+              <span class="absolute z-10 top-4 left-4 bg-[#3F556B] text-white text-[10px] font-semibold uppercase tracking-[0.2em] px-3 py-1">RCAC</span>
+              <img src="images/project-4.jpg" alt="Server racks in a data center" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/80 via-[#1e2420]/20 to-transparent"></div>
+            </div>
+            <div class="mb-6 order-1">
+              <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] leading-[0.95] mb-2">AI Support &amp; Knowledge Retrieval Agent</h3>
+              <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">Python / FastAPI / PostgreSQL/pgvector / Docker</p>
+              <p class="font-accent italic text-[#2d322f]/70 text-lg mb-4">Built a documentation-grounded support assistant that retrieves relevant guidance, searches related GitHub issues, and drafts cited responses, escalating unanswered questions to human support.</p>
+              <details class="group/d mt-2">
+                <summary class="list-none [&::-webkit-details-marker]:hidden cursor-pointer text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors"><span class="group-open/d:hidden">More →</span><span class="hidden group-open/d:inline">Less ↑</span></summary>
+                <div class="pt-4"><ul class="space-y-3 text-sm text-[#2d322f]/75 leading-relaxed"><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Designed incremental document indexing that processes only changed content, reducing redundant embedding work while keeping the knowledge base current.</li><li class="relative pl-5"><span class="absolute left-0 top-[0.6em] w-2 h-px bg-[#3F556B]"></span>Combined keyword and semantic search with reranking, evaluating answer accuracy, query cost, and response latency against a labeled question set to guide improvements.</li></ul></div>
+              </details>
+            </div>
+          </div>
+        </div>
+        <div class="mt-20 flex justify-center w-full">
+          <button id="projects-toggle" type="button" aria-expanded="false" class="bg-transparent border border-[#2d322f] px-10 py-4 text-xs font-semibold uppercase tracking-widest text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-all duration-300">View All Projects</button>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="max-w-[1400px] mx-auto px-6 lg:px-12 py-20">
+        <div class="flex items-end justify-between gap-6 mb-6 animate-on-scroll [animation:animationIn_0.8s_ease-out_0.1s_both]">
+          <div class="min-w-0">
+            <h2 class="font-display text-4xl md:text-5xl font-semibold tracking-tighter uppercase text-[#2d322f] mb-2">Skills <span class="text-[#3F556B]">Catalog</span></h2>
+            <p class="text-sm text-[#2d322f]/70">Browse by category. Add what you need to your cart and send it over. <span class="whitespace-nowrap font-semibold uppercase tracking-[0.2em] text-[10px] text-[#2d322f]/60 ml-1">45 items</span></p>
+          </div>
+          <div class="hidden sm:flex gap-2 shrink-0">
+            <button type="button" class="js-shelf-prev w-10 h-10 inline-flex items-center justify-center border border-[#2d322f] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors disabled:opacity-30 disabled:pointer-events-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]" aria-label="Scroll skills left" aria-controls="skills-shelf"><iconify-icon icon="solar:arrow-left-linear" width="18" height="18" aria-hidden="true"></iconify-icon></button>
+            <button type="button" class="js-shelf-next w-10 h-10 inline-flex items-center justify-center border border-[#2d322f] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors disabled:opacity-30 disabled:pointer-events-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]" aria-label="Scroll skills right" aria-controls="skills-shelf"><iconify-icon icon="solar:arrow-right-linear" width="18" height="18" aria-hidden="true"></iconify-icon></button>
+          </div>
+        </div>
+        <div class="-mx-6 px-6 lg:mx-0 lg:px-0 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden mb-5">
+          <div class="flex gap-2 w-max" role="group" aria-label="Filter skills by category">
+            <button type="button" data-skill-filter="all" aria-pressed="true" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f] bg-[#2d322f] text-white">All <span class="opacity-60">[45]</span></button><button type="button" data-skill-filter="languages" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">Languages <span class="opacity-60">[8]</span></button><button type="button" data-skill-filter="backend" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">Backend &amp; APIs <span class="opacity-60">[8]</span></button><button type="button" data-skill-filter="commerce" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">Commerce &amp; Integrations <span class="opacity-60">[8]</span></button><button type="button" data-skill-filter="data" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">Databases &amp; Performance <span class="opacity-60">[6]</span></button><button type="button" data-skill-filter="cloud" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">Cloud &amp; DevOps <span class="opacity-60">[10]</span></button><button type="button" data-skill-filter="ai" aria-pressed="false" class="js-skill-tab shrink-0 inline-flex items-center gap-2 px-4 py-2.5 text-[10px] font-semibold uppercase tracking-[0.2em] border whitespace-nowrap transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B] border-[#2d322f]/20 text-[#2d322f]/70 hover:border-[#3F556B] hover:text-[#3F556B]">AI-Augmented Development <span class="opacity-60">[5]</span></button>
+          </div>
+        </div>
+        <div id="skills-shelf" class="js-shelf -mx-6 px-6 lg:mx-0 lg:px-0 flex gap-3 overflow-x-auto snap-x snap-mandatory scroll-px-6 lg:scroll-px-0 pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" tabindex="0" aria-label="Skills">
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">PHP</h3>
+                <button type="button" data-skill-id="sk-1" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">SQL</h3>
+                <button type="button" data-skill-id="sk-2" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Python</h3>
+                <button type="button" data-skill-id="sk-3" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">TypeScript</h3>
+                <button type="button" data-skill-id="sk-4" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">JavaScript</h3>
+                <button type="button" data-skill-id="sk-5" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">C++</h3>
+                <button type="button" data-skill-id="sk-6" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">C#</h3>
+                <button type="button" data-skill-id="sk-7" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="languages" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:code-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Languages</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Dart</h3>
+                <button type="button" data-skill-id="sk-8" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">REST API design</h3>
+                <button type="button" data-skill-id="sk-9" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">State machines</h3>
+                <button type="button" data-skill-id="sk-10" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Idempotency &amp; retries</h3>
+                <button type="button" data-skill-id="sk-11" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Webhooks</h3>
+                <button type="button" data-skill-id="sk-12" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Background job queues</h3>
+                <button type="button" data-skill-id="sk-13" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Django</h3>
+                <button type="button" data-skill-id="sk-14" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">FastAPI</h3>
+                <button type="button" data-skill-id="sk-15" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="backend" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:server-square-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Backend &amp; APIs</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Node.js</h3>
+                <button type="button" data-skill-id="sk-16" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">B2B e-commerce</h3>
+                <button type="button" data-skill-id="sk-17" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Order-to-cash workflows</h3>
+                <button type="button" data-skill-id="sk-18" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Returns &amp; refunds</h3>
+                <button type="button" data-skill-id="sk-19" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Payment &amp; ERP integrations</h3>
+                <button type="button" data-skill-id="sk-20" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Tiered &amp; customer-specific pricing</h3>
+                <button type="button" data-skill-id="sk-21" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Multi-tenant account hierarchies</h3>
+                <button type="button" data-skill-id="sk-22" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Inventory management</h3>
+                <button type="button" data-skill-id="sk-23" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="commerce" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cart-large-2-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Commerce &amp; Integrations</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Invoicing</h3>
+                <button type="button" data-skill-id="sk-24" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">PostgreSQL</h3>
+                <button type="button" data-skill-id="sk-25" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">MySQL</h3>
+                <button type="button" data-skill-id="sk-26" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Relational schema design &amp; migrations</h3>
+                <button type="button" data-skill-id="sk-27" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Query &amp; index tuning</h3>
+                <button type="button" data-skill-id="sk-28" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Caching</h3>
+                <button type="button" data-skill-id="sk-29" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="data" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:database-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Databases &amp; Performance</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">MongoDB</h3>
+                <button type="button" data-skill-id="sk-30" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Azure DevOps</h3>
+                <button type="button" data-skill-id="sk-31" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">CI/CD (GitHub Actions)</h3>
+                <button type="button" data-skill-id="sk-32" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Docker</h3>
+                <button type="button" data-skill-id="sk-33" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Kubernetes</h3>
+                <button type="button" data-skill-id="sk-34" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Structured logging &amp; monitoring</h3>
+                <button type="button" data-skill-id="sk-35" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Terraform</h3>
+                <button type="button" data-skill-id="sk-36" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">AWS</h3>
+                <button type="button" data-skill-id="sk-37" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Google Cloud Platform (GKE, Cloud Functions, Firebase)</h3>
+                <button type="button" data-skill-id="sk-38" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Linux</h3>
+                <button type="button" data-skill-id="sk-39" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="cloud" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:cloud-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">Cloud &amp; DevOps</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Git</h3>
+                <button type="button" data-skill-id="sk-40" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="ai" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:magic-stick-3-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">AI-Augmented Development</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Claude Code</h3>
+                <button type="button" data-skill-id="sk-41" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="ai" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:magic-stick-3-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">AI-Augmented Development</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">GitHub Copilot</h3>
+                <button type="button" data-skill-id="sk-42" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="ai" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:magic-stick-3-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">AI-Augmented Development</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Cursor</h3>
+                <button type="button" data-skill-id="sk-43" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="ai" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:magic-stick-3-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">AI-Augmented Development</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">LLM integration</h3>
+                <button type="button" data-skill-id="sk-44" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+            <article data-skill-cat="ai" class="js-skill-card snap-start shrink-0 w-[172px] sm:w-[190px] flex flex-col bg-[#ebedea] border border-[#2d322f]/10 transition-shadow duration-300 hover:shadow-[0_6px_24px_rgba(63,85,107,0.10)]">
+              <div class="group relative h-20 bg-white overflow-hidden flex items-center justify-center">
+                <div class="absolute inset-0 opacity-[0.06]" style="background-image: linear-gradient(to right, rgba(45,50,47,.6) 1px, transparent 1px), linear-gradient(to bottom, rgba(45,50,47,.6) 1px, transparent 1px); background-size: 20px 20px;"></div>
+                <iconify-icon icon="solar:magic-stick-3-linear" width="34" height="34" aria-hidden="true" class="relative text-[#3F556B] transition-transform duration-500 group-hover:scale-110"></iconify-icon>
+              </div>
+              <div class="p-3 flex flex-col flex-grow gap-2">
+                <span class="self-start max-w-full truncate bg-[#3F556B] text-white text-[8px] font-semibold uppercase tracking-[0.18em] px-1.5 py-0.5">AI-Augmented Development</span>
+                <h3 class="js-skill-name font-display text-sm font-semibold tracking-tight uppercase text-[#2d322f] leading-tight break-words">Retrieval-augmented generation (RAG)</h3>
+                <button type="button" data-skill-id="sk-45" aria-pressed="false" class="js-add mt-auto w-full inline-flex items-center justify-center gap-1.5 border border-[#2d322f] py-1.5 text-[9px] font-semibold uppercase tracking-[0.18em] text-[#2d322f] hover:bg-[#3F556B] hover:border-[#3F556B] hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#3F556B]"><iconify-icon icon="solar:cart-large-minimalistic-linear" width="13" height="13" aria-hidden="true"></iconify-icon><span>Add</span></button>
+              </div>
+            </article>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="max-w-[1400px] mx-auto px-6 lg:px-12 py-28 border-t border-[#2d322f]/10">
+        <div class="mb-20 text-center">
+          <div class="flex items-center justify-center gap-3 mb-8">
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+            <span class="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2d322f]/60">Education</span>
+            <span class="h-px w-10 bg-[#3F556B]/70"></span>
+          </div>
+          <h2 class="font-display text-5xl md:text-6xl font-semibold tracking-tighter uppercase text-[#2d322f] leading-[0.95]">Purdue <span class="text-[#3F556B]">&amp;</span> Jain</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-10 lg:gap-12 max-w-5xl mx-auto">
+          <div class="group flex flex-col animate-on-scroll [animation:animationIn_0.8s_ease-out_0.2s_both]">
+            <div class="relative h-56 w-full overflow-hidden bg-[#1e2420] flex items-end p-8 mb-6">
+              <img src="images/edu-purdue.jpg" alt="Purdue University Gateway to the Future arch" class="absolute inset-0 w-full h-full object-cover object-[center_55%]">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/90 via-[#1e2420]/40 to-[#1e2420]/10"></div>
+              <span class="relative font-display text-8xl font-semibold text-white tracking-tighter leading-none group-hover:text-[#a9bccf] transition-colors duration-500">2026</span>
+            </div>
+            <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] mb-1">Purdue University</h3>
+            <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">Master of Science / 2026 / West Lafayette, IN</p>
+            <p class="text-lg text-[#2d322f]/70">Computer and Information Technology</p>
+          </div>
+          <div class="group flex flex-col animate-on-scroll [animation:animationIn_0.8s_ease-out_0.4s_both]">
+            <div class="relative h-56 w-full overflow-hidden bg-[#1e2420] flex items-end p-8 mb-6">
+              <img src="images/edu-jain.jpg" alt="Jain University campus, Bangalore" class="absolute inset-0 w-full h-full object-cover object-[90%_center]">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1e2420]/90 via-[#1e2420]/40 to-[#1e2420]/10"></div>
+              <span class="relative font-display text-8xl font-semibold text-white tracking-tighter leading-none group-hover:text-[#a9bccf] transition-colors duration-500">2024</span>
+            </div>
+            <h3 class="font-display text-3xl uppercase tracking-tighter text-[#2d322f] mb-1">Jain University</h3>
+            <p class="text-[10px] uppercase font-semibold text-[#3F556B] tracking-[0.2em] mb-3">Bachelor of Science / 2024 / Bangalore, India</p>
+            <p class="text-lg text-[#2d322f]/70">Computer Science</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="bg-[#f4f6f3] text-[#2d322f] py-28 px-6 border-t border-[#2d322f]/10">
+        <div class="max-w-3xl mx-auto text-center">
+          <div class="w-16 h-px bg-[#3F556B]/40 mx-auto mb-10"></div>
+          <p class="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#2d322f]/60 mb-6">Get in touch</p>
+          <h2 class="text-4xl md:text-5xl font-display leading-tight mb-8 uppercase tracking-tight">
+            Maintainable, production-ready<br class="hidden md:block"> software.
+          </h2>
+          <div class="text-[11px] font-semibold uppercase tracking-[0.3em] text-[#3F556B] mb-12 break-words">
+            Hilliard, OH / pchimmani97@gmail.com / in/pranay-chimmani
+          </div>
+          <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+            <a href="mailto:pchimmani97@gmail.com" class="bg-[#2d322f] text-white px-10 py-4 text-xs font-semibold uppercase tracking-widest hover:bg-[#3F556B] transition-colors duration-300">Email me</a>
+            <a href="https://www.linkedin.com/in/pranay-chimmani" target="_blank" rel="noopener" class="text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors">LinkedIn →</a>
+            <a href="Pranay-Chimmani-Resume.pdf" target="_blank" rel="noopener" class="text-xs font-semibold uppercase tracking-widest text-[#2d322f]/70 hover:text-[#3F556B] transition-colors">Resume (PDF) →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#1e2420] text-white pt-24 pb-12 border-t-4 border-[#3F556B]">
+      <div class="max-w-[1400px] mx-auto px-6 lg:px-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-20">
+          <div class="lg:col-span-2">
+            <h3 class="font-display text-2xl font-semibold tracking-tighter uppercase text-white mb-4 flex items-center gap-3">
+              <iconify-icon icon="solar:radar-linear" width="24" height="24" class="text-[#3F556B]"></iconify-icon>
+              Pranay Chimmani
+            </h3>
+            <p class="text-sm text-white/60 mb-6 max-w-sm leading-relaxed">Senior Software Engineer · e-commerce platforms, backend architecture, and commerce integrations. Hilliard, OH.</p>
+            <a href="mailto:pchimmani97@gmail.com" class="inline-flex bg-[#3F556B] text-white px-6 py-3 text-xs font-semibold uppercase tracking-widest hover:bg-white hover:text-[#1e2420] transition-colors border border-[#3F556B] hover:border-white">pchimmani97@gmail.com</a>
+          </div>
+          <div>
+            <h4 class="text-xs font-semibold uppercase tracking-[0.2em] text-[#3F556B] mb-6">Work</h4>
+            <ul class="space-y-4">
+              <li><a href="#experience" class="text-sm text-white/60 hover:text-white transition-colors">Work History</a></li>
+              <li><a href="#projects" class="text-sm text-white/60 hover:text-white transition-colors">Projects</a></li>
+              <li><a href="#skills" class="text-sm text-white/60 hover:text-white transition-colors">Skills</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xs font-semibold uppercase tracking-[0.2em] text-[#3F556B] mb-6">Profile</h4>
+            <ul class="space-y-4">
+              <li><a href="#about" class="text-sm text-white/60 hover:text-white transition-colors">Summary</a></li>
+              <li><a href="#education" class="text-sm text-white/60 hover:text-white transition-colors">Education</a></li>
+              <li><a href="#contact" class="text-sm text-white/60 hover:text-white transition-colors">Get in touch</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xs font-semibold uppercase tracking-[0.2em] text-[#3F556B] mb-6">Elsewhere</h4>
+            <ul class="space-y-4">
+              <li><a href="https://www.linkedin.com/in/pranay-chimmani" target="_blank" rel="noopener" class="text-sm text-white/60 hover:text-white transition-colors">LinkedIn</a></li>
+              <li><a href="Pranay-Chimmani-Resume.pdf" target="_blank" rel="noopener" class="text-sm text-white/60 hover:text-white transition-colors">Resume (PDF)</a></li>
+              <li><a href="mailto:pchimmani97@gmail.com" class="text-sm text-white/60 hover:text-white transition-colors">Email</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div class="flex items-center gap-4">
+            <span class="font-display text-3xl font-semibold tracking-tighter text-white uppercase">PC</span>
+            <p class="text-[10px] text-white/40 uppercase tracking-[0.2em]">© <span id="year">2026</span> Pranay Chimmani</p>
+          </div>
+          <div class="flex items-center gap-6">
+            <a href="https://www.linkedin.com/in/pranay-chimmani" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white/40 hover:text-white transition-colors"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4v11H3zM9.5 9.5h3.83v1.5h.05a4.2 4.2 0 0 1 3.78-2.08c4.04 0 4.79 2.66 4.79 6.11v5.47h-4v-4.85c0-1.16-.02-2.65-1.61-2.65-1.62 0-1.87 1.26-1.87 2.57v4.93h-4z"/></svg></a>
+            <a href="mailto:pchimmani97@gmail.com" aria-label="Email" class="text-white/40 hover:text-white transition-colors"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6.5h18v11H3z"/><path d="M3 7l9 6 9-6"/></svg></a>
+            <a href="#top" class="text-[10px] text-white/40 hover:text-white uppercase tracking-[0.2em] transition-colors">Back to top ↑</a>
+          </div>
+        </div>
+        <p class="mt-6 text-[11px] leading-relaxed text-white/40 text-center md:text-left">Photos: <a href="https://commons.wikimedia.org/wiki/File:Gateway_to_the_Future_Arch_Purdue_University_2016_04.jpg" class="underline decoration-white/20 underline-offset-2 hover:text-white transition-colors" target="_blank" rel="noopener">Purdue arch</a> by Julian Herzog (<a href="https://creativecommons.org/licenses/by/4.0/" class="underline decoration-white/20 underline-offset-2 hover:text-white transition-colors" target="_blank" rel="noopener">CC BY 4.0</a>); <a href="https://commons.wikimedia.org/wiki/File:Jain-University-Bangalore.jpg" class="underline decoration-white/20 underline-offset-2 hover:text-white transition-colors" target="_blank" rel="noopener">Jain University</a> by Sainath nuvvula (<a href="https://creativecommons.org/licenses/by-sa/4.0/" class="underline decoration-white/20 underline-offset-2 hover:text-white transition-colors" target="_blank" rel="noopener">CC BY-SA 4.0</a>), via Wikimedia Commons.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const blinds = document.querySelectorAll('.js-hero-blind');
+        const immersiveBg = document.querySelector('.js-immersive-bg');
+        let lastY = 0, ticking = false;
+        function doParallax(scrollPos) {
+          if (REDUCED) return;
+          if (scrollPos < 1200) {
+            blinds.forEach((blind, index) => {
+              const d = Math.abs(2 - index);
+              const y = Math.max(-180, Math.min(scrollPos * (0.028 + d * 0.02), 180));
+              blind.style.transform = `translate3d(0, ${y}px, 0)`;
+            });
+          }
+          if (immersiveBg) {
+            const rect = immersiveBg.parentElement.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+              const p = (window.innerHeight - rect.top) / (window.innerHeight + rect.height);
+              const y = Math.max(-100, Math.min((p - 0.5) * -120, 100));
+              immersiveBg.style.transform = `translateY(${y}px) scale(${Math.min(1.05 + p * 0.05, 1.12)})`;
+            }
+          }
+        }
+        window.addEventListener('scroll', () => {
+          lastY = window.scrollY;
+          if (!ticking) { window.requestAnimationFrame(() => { doParallax(lastY); ticking = false; }); ticking = true; }
+        }, { passive: true });
+        doParallax(window.scrollY);
+
+        const btn = document.getElementById('menu-btn'), menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { const open = !menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(open)); });
+        menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.add('hidden'); btn.setAttribute('aria-expanded', 'false'); }));
+        const projBtn = document.getElementById('projects-toggle');
+        projBtn.addEventListener('click', () => {
+          const open = projBtn.getAttribute('aria-expanded') !== 'true';
+          document.querySelectorAll('.js-more-proj').forEach(el => el.classList.toggle('hidden', !open));
+          document.querySelectorAll('#projects details').forEach(d => d.open = open);
+          projBtn.setAttribute('aria-expanded', String(open));
+          projBtn.textContent = open ? 'Show Fewer' : 'View All Projects';
+          if (!open) document.getElementById('projects').scrollIntoView();
+        });
+        const heads = [...document.querySelectorAll('.js-job-head')];
+        function equalizeHeads() {
+          heads.forEach(h => h.style.minHeight = '');
+          const rows = {};
+          heads.forEach(h => { const t = Math.round(h.closest('article').offsetTop); (rows[t] = rows[t] || []).push(h); });
+          Object.values(rows).forEach(r => { const m = Math.max(...r.map(h => h.offsetHeight)); r.forEach(h => h.style.minHeight = m + 'px'); });
+        }
+        equalizeHeads();
+        window.addEventListener('resize', equalizeHeads);
+        document.fonts && document.fonts.ready.then(equalizeHeads);
+        document.getElementById('year').textContent = new Date().getFullYear();
+      });
+    </script>
+
+    <script>
+      (function () {
+        const KEY = 'pc-skill-cart';
+        const cards = [...document.querySelectorAll('.js-skill-card')];
+        const byId = {};
+        cards.forEach(c => { const b = c.querySelector('.js-add'); byId[b.dataset.skillId] = { btn: b, name: c.querySelector('.js-skill-name').textContent.trim() }; });
+        let cart = [];
+        try { cart = (JSON.parse(localStorage.getItem(KEY)) || []).filter(id => byId[id]); } catch (e) { cart = []; }
+        const save = () => { try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch (e) {} };
+        const drawer = document.getElementById('cart-drawer'), list = drawer.querySelector('.js-cart-list'), empty = drawer.querySelector('.js-cart-empty'), checkout = drawer.querySelector('.js-cart-checkout'), cartBtn = document.getElementById('cart-btn');
+        function render() {
+          document.querySelectorAll('.js-cart-count').forEach(el => el.textContent = cart.length);
+          Object.entries(byId).forEach(([id, it]) => {
+            const inCart = cart.includes(id);
+            it.btn.setAttribute('aria-pressed', String(inCart));
+            it.btn.innerHTML = inCart ? '<iconify-icon icon="solar:check-circle-linear" width="14" height="14" aria-hidden="true"></iconify-icon><span>In cart</span>' : '<iconify-icon icon="solar:cart-large-minimalistic-linear" width="14" height="14" aria-hidden="true"></iconify-icon><span>Add</span>';
+            it.btn.classList.toggle('bg-[#2d322f]', inCart); it.btn.classList.toggle('text-white', inCart);
+          });
+          list.innerHTML = '';
+          cart.forEach(id => {
+            const li = document.createElement('li'); li.className = 'flex items-center justify-between gap-4 py-4';
+            const name = document.createElement('span'); name.className = 'font-display uppercase tracking-tight text-base'; name.textContent = byId[id].name;
+            const rm = document.createElement('button'); rm.type = 'button'; rm.className = 'shrink-0 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/60 hover:text-white underline underline-offset-4'; rm.textContent = 'Remove'; rm.setAttribute('aria-label', 'Remove ' + byId[id].name);
+            rm.addEventListener('click', () => { cart = cart.filter(x => x !== id); save(); render(); });
+            li.append(name, rm); list.append(li);
+          });
+          empty.classList.toggle('hidden', cart.length > 0);
+          const body = cart.length ? "Hi Pranay,\n\nI'd like to talk about these skills:\n" + cart.map(id => '- ' + byId[id].name).join('\n') + '\n\n' : "Hi Pranay,\n\n";
+          checkout.href = 'mailto:pchimmani97@gmail.com?subject=' + encodeURIComponent("Let's talk: Pranay Chimmani") + '&body=' + encodeURIComponent(body);
+        }
+        Object.entries(byId).forEach(([id, it]) => it.btn.addEventListener('click', () => {
+          cart = cart.includes(id) ? cart.filter(x => x !== id) : [...cart, id]; save(); render();
+        }));
+        let lastFocus = null;
+        function open() { lastFocus = document.activeElement; drawer.classList.remove('hidden'); document.body.style.overflow = 'hidden'; drawer.querySelector('.js-cart-close').focus(); }
+        function close() { drawer.classList.add('hidden'); document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
+        cartBtn.addEventListener('click', open);
+        drawer.querySelector('.js-cart-close').addEventListener('click', close);
+        drawer.querySelector('.js-cart-backdrop').addEventListener('click', close);
+        drawer.querySelector('.js-cart-clear').addEventListener('click', () => { cart = []; save(); render(); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape' && !drawer.classList.contains('hidden')) close(); });
+        const tabs = [...document.querySelectorAll('.js-skill-tab')];
+        const ON = ['border-[#2d322f]', 'bg-[#2d322f]', 'text-white'], OFF = ['border-[#2d322f]/20', 'text-[#2d322f]/70', 'hover:border-[#3F556B]', 'hover:text-[#3F556B]'];
+        tabs.forEach(t => t.addEventListener('click', () => {
+          const f = t.dataset.skillFilter; 
+          tabs.forEach(o => { const a = o === t; o.setAttribute('aria-pressed', String(a)); ON.forEach(c => o.classList.toggle(c, a)); OFF.forEach(c => o.classList.toggle(c, !a)); });
+          cards.forEach(c => { const show = f === 'all' || c.dataset.skillCat === f; c.classList.toggle('hidden', !show); });
+          shelf.scrollLeft = 0; updateArrows();
+        }));
+        const shelf = document.querySelector('.js-shelf'), prev = document.querySelector('.js-shelf-prev'), next = document.querySelector('.js-shelf-next');
+        function updateArrows() { prev.disabled = shelf.scrollLeft <= 2; next.disabled = shelf.scrollLeft + shelf.clientWidth >= shelf.scrollWidth - 2; }
+        const step = () => Math.max(200, Math.floor(shelf.clientWidth * 0.8));
+        prev.addEventListener('click', () => { shelf.scrollBy({ left: -step(), behavior: 'smooth' }); setTimeout(updateArrows, 500); });
+        next.addEventListener('click', () => { shelf.scrollBy({ left: step(), behavior: 'smooth' }); setTimeout(updateArrows, 500); });
+        shelf.addEventListener('scroll', updateArrows, { passive: true });
+        window.addEventListener('resize', updateArrows);
+        updateArrows();
+        render();
+      })();
+    </script>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+    <script>
+      (function () { const style = document.createElement("style"); style.textContent = ".animate-on-scroll { animation-play-state: paused !important; } .animate-on-scroll.animate { animation-play-state: running !important; }"; document.head.appendChild(style); if (!window.__inViewIO) { window.__inViewIO = new IntersectionObserver((entries) => { entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add("animate"); window.__inViewIO.unobserve(entry.target); } }); }, { threshold: 0.1, rootMargin: "0px 0px -10% 0px" }); } document.addEventListener("DOMContentLoaded", () => document.querySelectorAll(".animate-on-scroll").forEach((el) => window.__inViewIO.observe(el))); window.addEventListener("load", () => setTimeout(() => document.querySelectorAll(".animate-on-scroll:not(.animate)").forEach((el) => el.classList.add("animate")), 2500)); })();
+    </script>
+</body>
+</html>
